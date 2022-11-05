@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: "GothamBold";
+  src: local("GothamBold"),
+  url("./fonts/GothamBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+html { 
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: "GothamBold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+#root { height: 100%; }
+
+p, h1, h2, h3 {
+  margin: 0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
